@@ -28,4 +28,4 @@ jobs:
         name: my-artifact
         path: ./artifacts
         run: cat ./artifacts/hello.txt
-    needs: build
+        needs: build
